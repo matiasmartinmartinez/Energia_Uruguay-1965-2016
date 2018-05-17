@@ -9,8 +9,14 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-##
+## Introducción:
 
+El consumo final energético representa la energía, primaria o secundaria, que es utilizada directamente por los sectores socioeconómicos, sin incluir el consumo final no energético. La información se presenta desagregada por sector socioeconómico con la siguiente apertura: Residencial; Comercial/Servicios/Sector público; Transporte; Industrial; Agro/Pesca/Minería.
+
+## Descripción de las variables:
+
+**a:** Año 
+**res:** Residencial
 
 ```{r}
 library(tidyverse)

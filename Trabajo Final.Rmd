@@ -1,7 +1,7 @@
 ---
 title: "Trabajo Final"
 author: "Matías Martínez"
-date: "10 de mayo de 2018"
+date: "17 de mayo de 2018"
 output: pdf_document
 ---
 
@@ -10,13 +10,25 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Introducción:
+Analizararemos el consumo final uruguayo de energía por sector para el período 1965-2016.
 
-El consumo final energético representa la energía, primaria o secundaria, que es utilizada directamente por los sectores socioeconómicos, sin incluir el consumo final no energético. La información se presenta desagregada por sector socioeconómico con la siguiente apertura: Residencial; Comercial/Servicios/Sector público; Transporte; Industrial; Agro/Pesca/Minería.
 
+El consumo final energético representa la energía, primaria o secundaria, utilizada directamente por los sectores socioeconómicos, sin incluir el consumo final no energético). La información se presenta desagregada por sector socioeconómico con la siguiente apertura: Residencial; Comercial/Servicios/Sector público; Transporte; Industrial; Agro/Pesca/Minería.
+
+
+Fuente de datos: https://catalogodatos.gub.uy/it/dataset/consumo-final-energetico-por-sector
 ## Descripción de las variables:
 
 **a:** Año 
 **res:** Residencial
+**c.s.sp:** Comercial/Servicios/Sector público
+**tran:** Transporte
+**ind :** Industrial
+**a.p.m:** Agro/Pesca/Minería
+**ni:** No identificado
+**total:** Total
+
+La energía esta medida en unidades **ktep**,la cuál corresponde a la energía que rinde una tonelada de petróleo, la cual, como varía según la composición química de éste, se ha tomado un valor convencional de: 41 868 000 000 J (julios)  o 11 630 kWh (kilovatios-hora). 
 
 ```{r}
 library(tidyverse)

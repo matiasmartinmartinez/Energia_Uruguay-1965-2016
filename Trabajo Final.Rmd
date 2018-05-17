@@ -23,8 +23,15 @@ El consumo final energético representa la energía, primaria o secundaria, util
 - Industrial
 - Agro, Pesca, Minería.
 
+## Antecedentes
 
-Fuente de datos: https://catalogodatos.gub.uy/it/dataset/consumo-final-energetico-por-sector
+http://www.ben.miem.gub.uy/descargas/1balance/Informe%20general.pdf
+
+## Datos obtenidos
+Los datos fueron obtenidos del Balance Energético Nacional (BEN) correspondiente al año 2016, programa que yace de la Dirección Nacional de Energía del Ministerio de Industria, Energía y Minería. 
+Mediante el catálogo de datos abiertos extraemos nuestra base de datos, desde el siguiente url: https://catalogodatos.gub.uy/it/dataset/consumo-final-energetico-por-sector.
+ 
+
 ## Descripción de las variables:
 
 - **a:** Año 
@@ -37,9 +44,4 @@ Fuente de datos: https://catalogodatos.gub.uy/it/dataset/consumo-final-energetic
 - **total:** Total
 
 La energía esta medida en unidades **ktep**,la cuál corresponde a la energía que rinde una tonelada de petróleo, la cual, como varía según la composición química de éste, se ha tomado un valor convencional de: 41 868 000 000 J (julios)  o 11 630 kWh (kilovatios-hora). 
-
-```{r}
-library(tidyverse)
-str(datos)
-```
 

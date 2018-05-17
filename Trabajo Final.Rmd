@@ -9,7 +9,7 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Introducción:
+#### Introducción:
 
 El presente estudio surge de la curiosidad por conocer el comportamiento de la energía en Uruguay y posee como objetivo madre una profunda aplicación de los conocimientos adquiridos en la asignatura "Nuevas técnicas para el análisis de datos", marcando énfasis en un correcto análisis exploratorio y la generación de adecuadas visualizaciones de los datos.
 Se analizará  el consumo final uruguayo de energía por sector para el período 1965-2016.
@@ -29,8 +29,8 @@ En su programa del Balance Energético Nacional, donde don extrajo los datos, la
 
 ## Datos obtenidos
 Los datos fueron obtenidos del Balance Energético Nacional (BEN) correspondiente al año 2016, programa que yace de la Dirección Nacional de Energía del Ministerio de Industria, Energía y Minería. 
-Mediante el catálogo de datos abiertos extraemos nuestra base de datos, desde el siguiente url: https://catalogodatos.gub.uy/it/dataset/consumo-final-energetico-por-sector.
- 
+Mediante el catálogo de datos abiertos se extrae la base de datos a utilizar, desde el siguiente url: https://catalogodatos.gub.uy/it/dataset/consumo-final-energetico-por-sector.
+
 ## Descripción de las variables:
 
 - **a:** Año 
@@ -42,7 +42,16 @@ Mediante el catálogo de datos abiertos extraemos nuestra base de datos, desde e
 - **ni:** No identificado
 - **total:** Total
 
-La energía esta medida en unidades **ktep**,la cuál corresponde a la energía que rinde una tonelada de petróleo, la cual, como varía según la composición química de éste, se ha tomado un valor convencional de: 41 868 000 000 J (julios)  o 11 630 kWh (kilovatios-hora). 
+La energía esta medida en unidades **ktep**,la cuál corresponde a la energía que rinde una tonelada de petróleo, la cual, como varía según la composición química de éste, se ha tomado un valor convencional de: 41.868.000.000 J (julios)  o 11.630 kWh (kilovatios-hora). 
 
 ## Modelos y herramientas:
 
+Es importarte recordar los objetivos del estudio, uno de ellos guía a la implementación de apropiadas visualizaciones. Para esto se urlizara el software estadístico R, con la puntual  aplicación de paquete "tidyverse". Las visualizaciónes se gestaran con la libreria "ggplot2".
+
+
+## Preguntas a responder
+
+- 
+- 
+- 
+- 

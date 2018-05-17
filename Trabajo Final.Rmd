@@ -10,6 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Introducción:
+El presente estudio surge de la curiosidad por conocer el comportamiento de la energía en Uruguay y posee como objetivos madre una profunda aplicación de los conocimientos adquiridos en la asignatura "Nuevas técnicas para el análisis de datos", marcando énfasis en un correcto anàlisis exploratorio y la generación de adecuadas visualizaciones de los datos.
+Se analizará  el consumo final uruguayo de energía por sector para el período 1965-2016.
+
 Analizararemos el consumo final uruguayo de energía por sector para el período 1965-2016.
 
 

@@ -46,8 +46,10 @@ La energía esta medida en unidades **ktep**,la cuál corresponde a la energía 
 
 ## Modelos y herramientas:
 
-Es importarte recordar los objetivos del estudio, uno de ellos guía a la implementación de apropiadas visualizaciones. Para esto se urlizara el software estadístico R, con la puntual  aplicación de paquete "tidyverse". Las visualizaciónes se gestaran con la libreria "ggplot2".
-
+Es importarte recordar los objetivos del estudio, uno de ellos guía a la implementación de apropiadas visualizaciones. Para esto se utilizará el software estadístico R, con la puntual aplicación de paquete "tidyverse", que proporciona un conjunto de librerías óptimas para el análisis exploratorio de datos.
+Con el fin de crear visualizaciónes oportunas se gestará su formación con la librería "ggplot2", perteneciente a tidyverse, la cual al trabajar mediante acumulación de capas (layers) posee una mayor flexibilidad y permite generar gráficos que representen correctamente los datos, sin generar interpretaciones confusas. Toma como referencia una metodología de visualización de datos llamada the Grammar of Graphics,
+(Wilkinson, 2005), que consiste en especificar de manera independiente las componentes del gráfico, como si fuesen
+bloques y luego combinarlas.
 
 ## Preguntas a responder
 

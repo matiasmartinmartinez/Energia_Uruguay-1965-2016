@@ -1,7 +1,7 @@
 ---
 title: "Consumo energético final por sector en Uruguay, 1965-2016"
 author: "Martínez Matías, Zang Bruno"
-date: "17 de mayo de 2018"
+date: "18 de mayo de 2018"
 output: pdf_document
 ---
 
@@ -56,4 +56,11 @@ bloques y luego combinarlas.
 - 
 - 
 - 
-- 
+-
+
+## 
+```{r,echo=F}
+str(datos)
+head(datos)
+```
+

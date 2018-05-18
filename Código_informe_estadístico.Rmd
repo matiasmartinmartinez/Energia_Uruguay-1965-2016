@@ -61,8 +61,12 @@ bloques y luego combinarlas.
 ## 
 
 ```{r,echo=F}
-load("base_datos__consumo_energía_por_sector_Uruguay_1965-2016.RData") 
+library(tidyverse)
+load("base_datos__consumo_energía_por_sector_Uruguay_1965-2016.RData")
+
 str(datos)
 head(datos)
+
+datos %>% ggplot(aes(a,total)) + geom_area(fill='cadetblue') + labs(x="Año",y="Total consumo en ktep",title="Consumo total de energía en Uruguay, período 1965-2016") + theme(plot.title=element_text(size=16,face="bold",colour="skyblue4",hjust = 0.2 ),axis.title = element_text(colour = "grey20",size =12))
 ```
 

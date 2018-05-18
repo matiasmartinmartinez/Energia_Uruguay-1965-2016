@@ -59,7 +59,9 @@ bloques y luego combinarlas.
 -
 
 ## 
+
 ```{r,echo=F}
+load("base_datos__consumo_energía_por_sector_Uruguay_1965-2016.RData") 
 str(datos)
 head(datos)
 ```

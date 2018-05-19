@@ -53,9 +53,9 @@ Con el fin de crear visualizaciónes oportunas se gestará su formación con la 
 
 - 1. Como varía la distribución de frecuencia absoluta del consumo de energia para el periodo especificado por total y porsector 
 - R Grafica interactiva para cada sector
--2  Cual es el comportamiento de la Densidad para cada sector y la distribucion en frecuencia relativa
--3. Existe relacion entre el Transito y la Industria
--4 Cual es la razon para cada sector del primer año al ultimo
+- 2  Cual es el comportamiento de la Densidad para cada sector y la distribucion en frecuencia relativa
+- 3. Existe relacion entre el Transito y la Industria
+- 4 Cual es la razon para cada sector del primer año al ultimo
 
 ## 
 

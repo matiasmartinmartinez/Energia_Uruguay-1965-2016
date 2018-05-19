@@ -25,7 +25,7 @@ El consumo final energético representa la energía, primaria o secundaria, util
 
 ## Antecedentes
 
-En su programa del Balance Energético Nacional, donde don extrajo los datos, la Dirección Nacional de Energía del MIEM genera anualmente un suntuoso informe sobre la realidad energética en Uruguay para dicho año. Podemos observar el correspiende al 2016 tras el siguiente link: http://www.ben.miem.gub.uy/descargas/1balance/Informe%20general.pdf.
+En su programa del Balance Energético Nacional, de donde se extrajo los datos, la Dirección Nacional de Energía del MIEM genera anualmente un suntuoso informe sobre la realidad energética en Uruguay para dicho año. Podemos observar el correspiende al 2016 tras el siguiente link: http://www.ben.miem.gub.uy/descargas/1balance/Informe%20general.pdf.
 
 ## Datos obtenidos
 Los datos fueron obtenidos del Balance Energético Nacional (BEN) correspondiente al año 2016, programa que yace de la Dirección Nacional de Energía del Ministerio de Industria, Energía y Minería. 
@@ -42,21 +42,20 @@ Mediante el catálogo de datos abiertos se extrae la base de datos a utilizar, d
 - **ni:** No identificado
 - **total:** Total
 
-La energía esta medida en unidades **ktep**,la cuál corresponde a la energía que rinde una tonelada de petróleo, la cual, como varía según la composición química de éste, se ha tomado un valor convencional de: 41.868.000.000 J (julios)  o 11.630 kWh (kilovatios-hora). 
+La energía esta medida en unidades **ktep**,la cuál corresponde a la energía que rinde una tonelada de petróleo, la cual, como varía según la composición química de éste, se ha tomado un valor convencional de: 41.868.000.000 J (julios) o 11.630 kWh (kilovatios-hora). 
 
 ## Modelos y herramientas:
 
 Es importarte recordar los objetivos del estudio, uno de ellos guía a la implementación de apropiadas visualizaciones. Para esto se utilizará el software estadístico R, con la puntual aplicación de paquete "tidyverse", que proporciona un conjunto de librerías óptimas para el análisis exploratorio de datos.
-Con el fin de crear visualizaciónes oportunas se gestará su formación con la librería "ggplot2", perteneciente a tidyverse, la cual al trabajar mediante acumulación de capas (layers) posee una mayor flexibilidad y permite generar gráficos que representen correctamente los datos, sin generar interpretaciones confusas. Toma como referencia una metodología de visualización de datos llamada the Grammar of Graphics,
-(Wilkinson, 2005), que consiste en especificar de manera independiente las componentes del gráfico, como si fuesen
-bloques y luego combinarlas.
+Con el fin de crear visualizaciónes oportunas se gestará su formación con la librería "ggplot2", perteneciente a tidyverse, la cual al trabajar mediante acumulación de capas (layers) posee una mayor flexibilidad y permite generar gráficos que representen correctamente los datos, sin generar interpretaciones confusas. Toma como referencia una metodología de visualización de datos llamada the Grammar of Graphics (Wilkinson, 2005), que consiste en especificar de manera independiente las componentes del gráfico como si fuesen bloques y luego combinarlas.
 
 ## Preguntas a responder
 
-- 
-- 
-- 
--
+- 1. Como varía la distribución de frecuencia absoluta del consumo de energia para el periodo especificado por total y porsector 
+- R Grafica interactiva para cada sector
+-2  Cual es el comportamiento de la Densidad para cada sector y la distribucion en frecuencia relativa
+-3. Existe relacion entre el Transito y la Industria
+-4 Cual es la razon para cada sector del primer año al ultimo
 
 ## 
 
